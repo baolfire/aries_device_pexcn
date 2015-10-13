@@ -191,9 +191,9 @@ BOARD_SEPOLICY_UNION += \
 -include vendor/xiaomi/aries/BoardConfigVendor.mk
 
 
-# Dexopt
-WITH_DEXPREOPT := true
-WITH_DEXPREOPT_BOOT_IMG_ONLY := false
+## Dexopt
+#WITH_DEXPREOPT := true
+#WITH_DEXPREOPT_BOOT_IMG_ONLY := false
 
 # Release
 TARGET_BUILD_TYPE := release
